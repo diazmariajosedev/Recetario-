@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(177, 10, 149);
+    padding: 30px;
+}
+
+.grid-products {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.card-text-title {
+    font-family: 'Elms Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(179, 98, 204);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color:white;
+    font-size: 18px;
+}
+
+#categorias {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.card {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: white;
+    padding: 10px;
+    transition: .4s ease;
+}
+
+.price{
+    background: linear-gradient(90deg,#000000,#820ba7);
+    color: white; 
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: auto;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.card h4 {
+    color: rgb(76, 15, 133);
+}
